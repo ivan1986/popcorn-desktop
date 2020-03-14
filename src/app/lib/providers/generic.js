@@ -15,6 +15,14 @@
     }
   }
 
+  function updateProviderLanguage (language) {
+    for (let provider in cache) {
+      if (cache[provider] && cache[provider].hasOwnProperty('language')) {
+        cache[provider].language = language;
+      }
+    }
+  }
+
   function delProvider(name) {
     if (cache[name]) {
       win.info('Delete provider cache', name);
@@ -97,6 +105,7 @@
   App.Providers.delete = delProvider;
   App.Providers.install = installProvider;
   App.Providers.updateConnection = updateProviderConnection;
+  App.Providers.updateLanguage = updateProviderLanguage;
 
   App.Providers.getFromRegistry = getProviderFromRegistry;
 })(window.App);
