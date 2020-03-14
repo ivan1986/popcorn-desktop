@@ -408,6 +408,9 @@ var Database = {
                 if (Settings.version === false) {
                     window.__isNewInstall = true;
                 }
+                if (Settings.language) {
+                    App.Providers.updateLanguage(Settings.language);
+                }
 
                 if (Settings.apiServer || Settings.proxyServer) {
                   App.Providers.updateConnection(Settings.apiServer, Settings.proxyServer);
