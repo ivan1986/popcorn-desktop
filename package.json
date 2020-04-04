@@ -96,7 +96,7 @@
     "urijs": "1.19.1",
     "video.js": "4.11.4",
     "videojs-youtube": "1.2.10",
-    "webtorrent": "^0.107.16",
+    "webtorrent": "git+https://github.com/popcorn-time-ru/webtorrent/#pe-mse-new",
     "webtorrent-health": "1.x.x"
   },
   "devDependencies": {
