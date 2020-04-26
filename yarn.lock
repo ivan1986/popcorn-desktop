@@ -946,10 +946,9 @@ butter-sanitize@^0.1.1:
   dependencies:
     sanitizer "^0.1.3"
 
-butter-settings-popcorntime.io@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/butter-settings-popcorntime.io/-/butter-settings-popcorntime.io-0.0.4.tgz#0d14c4f40da00e308146efd710488d44d8c62f66"
-  integrity sha512-kUnm4DNYDGMpAlvPuz5zlWcHF3ppt3dhCZMyqKu/wrhz4DNY1Fw5K6DXR/yNwSAb/U07I4p9XmjcsiTqIlWHXA==
+"butter-settings-popcorntime.ru@git+https://github.com/popcorn-time-ru/butter-settings-popcorn/":
+  version "0.0.1"
+  resolved "git+https://github.com/popcorn-time-ru/butter-settings-popcorn/#162972bc51feb01b2f40d8a303b0256444baff0e"
 
 "bytebuffer@~3 >=3.5":
   version "3.5.5"
